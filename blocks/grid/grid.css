@@ -1,0 +1,85 @@
+.grid {
+  display: grid;
+  place-items: center;
+  width: auto;
+  height: auto;
+  margin: 15px;
+  padding: 15px;
+}
+.grid__card {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1411764706);
+  border-radius: 16px;
+  margin: 15px;
+  padding: 15px;
+  border-spacing: 20px;
+}
+@media (max-width: 1024px) {
+  .grid__card {
+    display: flex;
+  }
+}
+.grid__card__color__magenta {
+  background-color: #FF2D59;
+  border-radius: 15px;
+  padding: auto;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+}
+.grid__card__color__darkblue {
+  background-color: #4C40F7;
+  border-radius: 15px;
+  padding: auto;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+}
+.grid__card__color__yellow {
+  background-color: #FFCC00;
+  border-radius: 15px;
+  padding: auto;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+}
+.grid__card__color__green {
+  background-color: #4ADB61;
+  border-radius: 15px;
+  padding: auto;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+}
+.grid__card__color__redorange {
+  background-color: #FF3B2F;
+  border-radius: 15px;
+  padding: auto;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+}
+.grid__card__color__orange {
+  background-color: #FE9602;
+  border-radius: 15px;
+  padding: auto;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+}
+.grid__card__color__blue {
+  background-color: #007BFF;
+  border-radius: 15px;
+  padding: auto;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+}
+.grid__card__color__lightblue {
+  background-color: #5CC8FC;
+  border-radius: 15px;
+  padding: auto;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+}/*# sourceMappingURL=grid.css.map */

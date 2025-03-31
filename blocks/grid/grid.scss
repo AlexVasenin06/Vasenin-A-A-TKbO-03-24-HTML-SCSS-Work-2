@@ -1,0 +1,129 @@
+$breakpoint-mobile: 1024px;
+$breakpoint-tablet: 1440px;
+$breakpoint-desktop: 2048px;
+
+@mixin respond-to($breakpoint) {
+        @media (max-width: $breakpoint) {
+          @content;
+        }
+      }
+      
+.grid{
+
+    display: grid;
+    place-items: center;
+    width: auto;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+
+    &__card{
+
+        background-color: #ffffff;
+        box-shadow: 5px 5px 10px #00000024;
+        border-radius: 16px;
+        margin: 15px;
+        padding: 15px;
+        border-spacing: 20px;
+        
+        @include respond-to($breakpoint-mobile) {
+
+            display: flex;
+            
+        }
+
+        &__color{
+
+            &__magenta{
+
+                background-color: #FF2D59;
+                border-radius: 15px;
+                padding: auto;
+                margin: auto;
+                width: 300px;
+                height: 350px;
+
+            }
+
+            &__darkblue{
+
+                background-color: #4C40F7;
+                border-radius: 15px;
+                padding: auto;
+                margin: auto;
+                width: 300px;
+                height: 350px;
+
+
+            }
+
+            &__yellow{
+
+                background-color: #FFCC00;
+                border-radius: 15px;
+                padding: auto;
+                margin: auto;
+                width: 300px;
+                height: 350px;
+
+            }
+
+            &__green{
+
+                background-color: #4ADB61;
+                border-radius: 15px;
+                padding: auto;
+                margin: auto;
+                width: 300px;
+                height: 350px;
+                
+            }
+
+            &__redorange{
+
+                background-color: #FF3B2F;
+                border-radius: 15px;
+                padding: auto;
+                margin: auto;
+                width: 300px;
+                height: 350px;
+
+            }
+
+            &__orange{
+
+                background-color: #FE9602;
+                border-radius: 15px;
+                padding: auto;
+                margin: auto;
+                width: 300px;
+                height: 350px;
+
+            }
+
+            &__blue{
+
+                background-color: #007BFF;
+                border-radius: 15px;
+                padding: auto;
+                margin: auto;
+                width: 300px;
+                height: 350px;
+
+            }
+
+            &__lightblue{
+
+                background-color: #5CC8FC;
+                border-radius: 15px;
+                padding: auto;
+                margin: auto;
+                width: 300px;
+                height: 350px;
+
+            }
+
+        }
+    }
+
+}
